@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("https://developer.salesforce.com/files/survey-background.png");
+}
+#title {
+    font-size: 50px;
+}
+
+#description {
+    font-size: 20px;
+}
+
+#body {
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    text-align: left;
+    border-radius: 15px;
+    background-color: #b3ecff;
+    font-size: 20px;
+}
+#name{
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+#email{
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    font-size: 15px;
+  }
+
+  #number{
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    font-size: 15px;
+  }
+  #dropdown{
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    font-size: 15px;
+  }
+  #comment{
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    font-size: 15px; 
+  }
+  #submit{
+    width:560px;
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    margin-top:3%;
+    color:white;
+    background-color:green;
+    
+  }
+  
