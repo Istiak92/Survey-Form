@@ -6,15 +6,17 @@
     
 </head>
 <body>
+  <main id="main">
+    <div class="intro">
     <h1 id="title">Captain America Survey Form</h1>
 
     <p id="description">Thank you for taking the time to help us improve the platform </p>
- 
+  </div>
 <div id="body">
-<form id="survey-form">
- <label id="name-label" for="name">
-     <p >Name </p>
- </label> 
+  <form id="survey-form">
+    <label id="name-label" for="name">
+    <p >Name </p>
+</label>
   <input id="name" type="text" placeholder="Enter your name" required>
   <label id="email-label" for="email">
     <p >Email </p>
@@ -24,8 +26,9 @@
     <p >Age </p>
 </label> 
    <input type="number" id="number" min="12" max="50" placeholder="Age" required>
-
-   <p>Which Leadership Quality Do You Think make Captain America A Good Leader?</p>
+   <label id="question-label" for="number">
+      <p>Which Leadership Quality Do You Think make Captain America A Good Leader?</p>
+   </label>
    <select id="dropdown" name="dropdown">
        
     <option value="default">Nothing</option>
@@ -35,7 +38,7 @@
     <option value="He protects his team.">He protects his team.</option>
     <option value="He adapts to strengths and weaknesses.">He adapts to strengths and weaknesses.</option>
     
-</select>
+   </select>
 <br>
 <br>
 
@@ -61,7 +64,7 @@
 <br>
  <input type="radio" name="movies" id="7" value="7">
  <label for="7"> Avengers: Endgame </label>
-
+<div>
  <p>Which Of The Other Avenger(Original 6) Do You Like?</p>
 
  <input type="checkbox" id="avengers1" name="avengers" value="1">
@@ -80,10 +83,12 @@
   <input type="checkbox" id="avengers5" name="avengers" value="5">
  
  <label for="avengers5"> Black Widow </label><br><br>
+</div>
 
  <textarea id="comment" name="comment" rows="4" cols="50"> Add your comment here </textarea>
  <br>
  <input id="submit" type="submit" value="Submit">
     </form>
+  </main>
 </body>
 </html>
